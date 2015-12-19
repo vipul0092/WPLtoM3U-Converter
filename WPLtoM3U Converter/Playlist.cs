@@ -140,7 +140,7 @@ namespace WPLtoM3U_Converter
         {
             string t1;
             t1 = files[index1]; files[index1] = files[index2]; files[index2] = t1;
-            t1 = fileNames[index1]; fileNames[index2] = fileNames[index1]; fileNames[index2] = t1;
+            t1 = fileNames[index1]; fileNames[index1] = fileNames[index2]; fileNames[index2] = t1;
         }
 
         /// <summary>
